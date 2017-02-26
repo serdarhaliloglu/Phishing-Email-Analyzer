@@ -1,4 +1,5 @@
 # MSS
+- MSS is an open source project to analyze malware which spreads via e-mail. MSS has four different modules, namely parsing, VirusTotal, blacklist and sandbox modules.
 
 ## EMLPARSER
 
