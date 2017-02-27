@@ -13,10 +13,6 @@ import socket
 # Requires dnspython AKA python-dns package 76bls
 from urllib2 import urlopen
 
-
-
-
-
 bls = [ "short.rbl.jp", "owps.dnsbl.net.aupbl.spamhaus.org","bogons.cymru.com",
 		"rdts.dnsbl.net.au","web.dnsbl.sorbs.net","dnsbl.inps.de",
 		"korea.services.net","ix.dnsbl.manitu.net","dnsbl.njabl.org",
@@ -170,45 +166,3 @@ else:
 		print 'No answer for %s BLServer(s).'  %(var4) 
 		print 'No nameservers for %s BLServer(s).'  %(var3) 
 		print
-
-
-
-
-"""bls = [  "dyna.spamrats.com","puck.nether.net","spam.rbl.msrbl.net","phishing.rbl.msrbl.net","bl.mailspike.net",
-		"z.mailspike.net","dnsbl.madavi.de","spamguard.leadmon.net", 
-		"ubl.unsubscore.com","bl.konstant.no","dnsbl.kempt.net","blacklist.jippg.org",
-		"dnsbl.invaluement.com/ivmsip24","dnsbl.invaluement.com/ivmsip",
-		"rbl.interserver.net","dnsbl.inps.de","spamrbl.imp.ch","wormrbl.imp.ch",
-		"icm.edu.pl","hil.habeas.com","spamsources.fabel.dk","bl.emailbasura.org",
-		"dnsbl.anticaptcha.net","dul.ru","dnsbl.dronebl.org","bl.drmx.org", 
-		"dns-servicios.com","torexit.dan.me.uk","tor.dan.me.uk",
-		"bogons.cymru.com","cbl.abuseat.org.","cbl.anti-spam.org.cn",
-		"dnsbl.calivent.com.pe","rbl.abuse.ro" , "spam.dnsbl.anonmails.de" , 
-		"ips.backscatterer.org", "sbl.spamhaus.org","bl.blocklist.de ", "korea.services.net",
-
-					***************************************************
-
-
-		"cdl.anti-spam.org.cn" , "combined.rbl.msrbl.net" , "duinv.aupads.org" , "ohps.dnsbl.net.au", "omrs.dnsbl.net.au",
-			 "orvedb.aupads.org", "osps.dnsbl.net.au", "osrs.dnsbl.net.au", "owfs.dnsbl.net.au",
-			 "ricn.dnsbl.net.au" , "probes.dnsbl.net.au" , "t3direct.dnsbl.net.au" ,
-			 "rmst.dnsbl.net.au" , "rdts.dnsbl.net.au" , "zombie.dnsbl.sorbs.net",
-		"zen.spamhaus.org", "spam.abuse.ch", "cbl.abuseat.org", "virbl.dnsbl.bit.nl", "dnsbl.inps.de", 
-			"ix.dnsbl.manitu.net", "dnsbl.sorbs.net", "bl.spamcannibal.org", "bl.spamcop.net", 
-			"xbl.spamhaus.org", "pbl.spamhaus.org", "dnsbl-1.uceprotect.net", "dnsbl-2.uceprotect.net", 
-			"dnsbl-3.uceprotect.net", "db.wpbl.info","b.barracudacentral.org", "bl.spamcannibal.org", "bl.spamcop.net",
-			"blacklist.woody.ch", "cbl.abuseat.org", 
-			 "combined.abuse.ch",  "db.wpbl.info", "dnsbl-1.uceprotect.net", "dnsbl-2.uceprotect.net",
-			 "dnsbl-3.uceprotect.net", "dnsbl.cyberlogic.net",
-			 "dnsbl.sorbs.net", "drone.abuse.ch", "drone.abuse.ch", "dul.dnsbl.sorbs.net", "dul.ru",
-			 "dynip.rothen.com", "http.dnsbl.sorbs.net", "images.rbl.msrbl.net",
-			 "ips.backscatterer.org", "ix.dnsbl.manitu.net", "misc.dnsbl.sorbs.net",
-			 "noptr.spamrats.com",   "pbl.spamhaus.org", "phishing.rbl.msrbl.net",
-				"proxy.bl.gweep.ca", "rbl.interserver.net", "relays.bl.gweep.ca", "relays.nether.net",
-			 "residential.block.transip.nl",  "smtp.dnsbl.sorbs.net",
-			 "socks.dnsbl.sorbs.net", "spam.abuse.ch", "spam.dnsbl.sorbs.net",
-			 "spam.rbl.msrbl.net", "spam.spamrats.com", "spamrbl.imp.ch", "tor.dnsbl.sectoor.de",
-			 "torserver.tor.dnsbl.sectoor.de", "ubl.lashback.com",
-			 "ubl.unsubscore.com", "virus.rbl.jp", "virus.rbl.msrbl.net",
-			 "web.dnsbl.sorbs.net", "wormrbl.imp.ch", "xbl.spamhaus.org","zen.spamhaus.org" 
-			]"""
