@@ -64,13 +64,6 @@ def green(text):
 
 def blue(text):
 		return color(text, 34)
- 
-#if len(sys.argv) != 2:
-#		print 'Usage: %s <ip>' %(sys.argv[0])
-#		quit()
- 
-
-
 
 var1 = 0 
 var2 = 0 
