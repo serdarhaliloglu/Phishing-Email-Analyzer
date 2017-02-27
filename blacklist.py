@@ -98,9 +98,7 @@ if x == "i":
 
 				except dns.resolver.NXDOMAIN:
 					var1= var1+1
-					print 'IP: %s is NOT listed in %s' %(myIP, bl)
-
-			 
+					print 'IP: %s is NOT listed in %s' %(myIP, bl)			 
 				except dns.resolver.Timeout:
 					var2= var2+1
 					print (blink('WARNING: Timeout querying ' + bl))
@@ -144,8 +142,6 @@ else:
 			except dns.resolver.NXDOMAIN:
 				var1= var1+1
 				print 'IP: %s is NOT listed in %s' %(myIP, bl)
-
-			 
 			except dns.resolver.Timeout:
 				var2= var2+1
 				print (blink('WARNING: Timeout querying ' + bl))
