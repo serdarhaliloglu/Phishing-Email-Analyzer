@@ -10,9 +10,11 @@ import urllib2
 import argparse
 import re
 import socket
-# Requires dnspython AKA python-dns package 76bls
 from urllib2 import urlopen
 
+""" Important! 
+--->>>> Requires dnspython
+"""
 bls = [ "short.rbl.jp", "owps.dnsbl.net.aupbl.spamhaus.org","bogons.cymru.com",
 		"rdts.dnsbl.net.au","web.dnsbl.sorbs.net","dnsbl.inps.de",
 		"korea.services.net","ix.dnsbl.manitu.net","dnsbl.njabl.org",
