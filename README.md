@@ -19,6 +19,7 @@
 ## Blacklist Module
 - It will check whether ip addresses or domain names in blacklist or not.
 - Blacklists we use are RBL, SBL and so on.
+
 ### Usage
 - python blacklist.py 
    - The system will ask you whether you want to scan an ip address or a domain name.
@@ -26,7 +27,6 @@
       - Then, system will ask you to enter an ip address
     - If you want to check a domain name, you have to write "d" for scanning.
       - Then, system will ask you to enter a domain name.
-        
 
 ## Sandbox Module
 - Ongoing
