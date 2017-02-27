@@ -12,9 +12,15 @@ import re
 import socket
 from urllib2 import urlopen
 
-""" Important! 
---->>>> Requires dnspython
+""" 
+Important! 
+
+--->>>> Requires dnspython package. You can easily install it by typing this command. 
+
+sudo pip install dnspython
+
 """
+
 bls = [ "short.rbl.jp", "owps.dnsbl.net.aupbl.spamhaus.org","bogons.cymru.com",
 		"rdts.dnsbl.net.au","web.dnsbl.sorbs.net","dnsbl.inps.de",
 		"korea.services.net","ix.dnsbl.manitu.net","dnsbl.njabl.org",
