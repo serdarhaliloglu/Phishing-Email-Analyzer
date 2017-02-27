@@ -17,7 +17,8 @@
 - Ongoing
 
 ## Blacklist Module
-
+- It will check whether ip addresses or domain names in blacklist or not.
+- Blacklists we use are RBL, SBL and so on.
 ### Usage
 - python blacklist.py 
    - The system will ask you whether you want to scan an ip address or a domain name.
