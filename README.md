@@ -8,10 +8,15 @@
 
 ## Parser Module
 
-### Usage
+### EMLParser Usage
 
 - python EMLParser.py FileName.eml
 - The aim of parsing module in our project MSS is to separate all information in the email contents.
+
+### IP-Link Parser
+
+The script written by Johnny is used. We have changed the regex in IPAddresses.py which is in the class files.
+https://github.com/JohnnyWachter/intel
 
 ## VirusTotal Module
 - Ongoing
