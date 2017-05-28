@@ -34,3 +34,7 @@ The codes are integrated into our project. It will be added soon.
       - Then, system will ask you to enter an ip address
     - If you want to check a domain name, you have to write "d" for scanning.
       - Then, system will ask you to enter a domain name.
+## Graphical User Interface (GUI)
+
+- The user interface is made using Qt4.
+- Soon, GUI codes and User Guide will be added.
