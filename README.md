@@ -21,7 +21,7 @@ https://github.com/JohnnyWachter/intel
 The codes are integrated into our project. It will be added soon.
 
 ## VirusTotal Module
-- Ongoing
+- Development of this module is over. It will be added soon.
 
 ## Blacklist Module
 - It will check whether ip addresses or domain names in blacklist or not.
