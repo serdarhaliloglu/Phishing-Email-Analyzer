@@ -18,6 +18,8 @@
 The script written by Johnny Wachter is used. We have changed the regex in IPAddresses.py which is in the class files.
 https://github.com/JohnnyWachter/intel
 
+The codes are integrated into our project. It will be added soon.
+
 ## VirusTotal Module
 - Ongoing
 
