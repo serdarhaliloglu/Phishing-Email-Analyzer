@@ -15,7 +15,7 @@
 
 ### IP-Link Parser
 
-The script written by Johnny is used. We have changed the regex in IPAddresses.py which is in the class files.
+The script written by Johnny Wachter is used. We have changed the regex in IPAddresses.py which is in the class files.
 https://github.com/JohnnyWachter/intel
 
 ## VirusTotal Module
