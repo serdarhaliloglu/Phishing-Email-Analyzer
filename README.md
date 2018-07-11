@@ -1,5 +1,5 @@
-# MSS
-- MSS is an open source project to analyze malware which spreads via e-mail. MSS has three different modules, namely parsing, VirusTotal, blacklist modules.
+# Phishing Email Analyzer (PEA)
+- PEA is an open source project to analyze malware which spreads via e-mail. PEA has three different modules, namely parsing, VirusTotal, blacklist modules.
 
 ## Team Members
    - Serdar HALİLOĞLU
@@ -11,7 +11,7 @@
 ### EMLParser Usage
 
 - python EMLParser.py FileName.eml
-- The aim of parsing module in our project MSS is to separate all information in the email contents.
+- The aim of parsing module in our project PEA is to separate all information in the email contents.
 
 ### IP-Link Parser
 
