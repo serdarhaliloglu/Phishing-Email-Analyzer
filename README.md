@@ -1,11 +1,6 @@
 # Phishing Email Analyzer (PEA)
 - PEA is an open source project to analyze malware which spreads via e-mail. PEA has three different modules, namely parsing, VirusTotal, blacklist modules.
 
-## Team Members
-   - Serdar HALİLOĞLU
-   - Miray ELİBÜYÜK
-   - Seçil TOPRAKEŞEN
-
 ## Parser Module
 
 ### EMLParser Usage
